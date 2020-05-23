@@ -27,9 +27,9 @@ public class Ocurrence {
 
     private String mForwarding;;
 
-    public Ocurrence(@Nullable String description,String mForwarding , int grade, String creationDate) {
+    public Ocurrence(@Nullable String description,String forwarding , int grade, String creationDate) {
         mDescription = description;
-        mForwarding = Forwarding;
+        mForwarding = forwarding;
         mGrade = grade;
         mCreationDate = creationDate;
     }
